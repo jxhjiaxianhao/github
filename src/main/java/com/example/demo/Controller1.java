@@ -22,21 +22,7 @@ public class Controller1 {
     public Result test() {
         List<Dog> list = new ArrayList<>();
 
-        list.add(new Dog().show());
-
-        List<String> list1 = new ArrayList<>();
-        list1.add("333");
-        System.out.println(JSONObject.toJSONString(list1));
-        System.out.println(Result.ok(list1));
-        System.out.println(JSONObject.toJSONString(Result.ok(list1)));
-        return Result.ok(list);
-    }
-
-
-    @RequestMapping("/show")
-    public void show() {
-        System.out.println(user);
-        dog.show3();
+       return null;
     }
 
 }

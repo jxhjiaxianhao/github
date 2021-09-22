@@ -20,13 +20,13 @@ public class Dog {
 
     private TextRenderData name;
 
-    public Dog show() {
-        Dog dog = new Dog();
-        dog.name = new TextRenderData("/");
-        return dog;
-    }
-    public void show3(){
-        System.out.println(user);
+//    public Dog show() {
+//        Dog dog = new Dog();
+//        dog.name = new TextRenderData("/");
+//        return dog;
+//    }
+    public void show(){
+        System.out.println("user");
 //        String name = user.getName();
 //        System.out.println(name);
     }

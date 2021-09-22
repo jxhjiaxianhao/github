@@ -7,6 +7,11 @@ import org.springframework.stereotype.Service;
 @Data
 @Component
 public class User {
-    private String name;
+    public String name;
+    private Integer id;
+
+    public void show() {
+        System.out.println(99);
+    }
 }
 
